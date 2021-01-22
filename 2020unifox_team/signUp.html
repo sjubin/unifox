@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="shortcut icon"  href="./image/icon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="head">
+        <div class="logo"><br>
+            <p><a href="shopping.html" style="text-decoration: none; color:black;">UFshop</a></p>
+        </div>
+
+        <div class="menu_left"><br>
+            <p><a href="best.html" style="text-decoration: none; color:black;">BEST</a></p><br>
+            <p><a href="outer.html" style="text-decoration: none; color:black;">OUTER</a></p><br>
+            <p><a href="top.html" style="text-decoration: none; color:black;">TOP</a></p><br>
+            <p><a href="bottom.html" style="text-decoration: none; color:black;">BOTTOM</a></p><br>
+            <p><a href="acc.html" style="text-decoration: none; color:black;">ACC</a></p>
+            <br>
+            <span><br><a href="login.html" style="text-decoration: none; color:black;">LOGIN</a><br></span>
+            <span><br><a href="signUp.html" style="text-decoration: none; color:black;">JOIN</a><br></span>
+            <!--로그아웃-->
+            <span><br><a href="shopping.html" style="text-decoration: none; color:black;">LOGOUT</a><br></span>
+        </div>
+
+        <div class="menu_right">
+            <span><a href="notice.html" style="text-decoration: none; color:black;">NOTICE</a><br></span>
+            <span><br><a href="http://unifox.kr/" target="_blank" style="text-decoration: none; color:black;">ABOUT US</a><br></span>
+        </div>
+    </div>
+
+    <div class="search">
+        <form action="search.php">
+            <input style="border-right: 0px; border-left: 0px; border-top: 0px; width:133%;" type="text" placeholder="검색" name="search" >
+        </form>
+    </div>
+
+    <div class="Kategorie">
+        <p>contact : 010-1234-1234</p><br>
+        <p>WORK TIME : 12 PM - 6 PM</p><br>
+        <P>LUNCH TIME : 1 PM - 2 PM</P><br>
+        <P>CLOSE : SAT , SUN , REDDAY</P><br>
+    </div>
+
+    <form action="/signUp.php" method="post">
+        <div>
+            <div class="sign_title">
+                <h4 style="text-align: center;">[Sign Up]</h4><br>
+                <p align="center">회원가입을 하셔서 더 많은 혜택을 누리세요! </p>
+            </div>
+            <div class="sign_form">
+                <center>
+                    <fieldset style="width: 65%; padding-top: 30px;">
+                        <form action="login_check.php" method="POST">
+                            <p><input style="border-right: 0px; border-left: 0px; border-top: 0px; width:60%;" type="text" placeholder="Name" name="name"></p>
+                            <p><input style="border-right: 0px; border-left: 0px; border-top: 0px; width:60%;" type="text" placeholder="ID" name="id"></p>
+                            <p><input style="border-right: 0px; border-left: 0px; border-top: 0px; width:60%;" type="password" placeholder="Password" name="pw"></p>
+                            <p><input style="border-right: 0px; border-left: 0px; border-top: 0px; width:60%;" type="password" placeholder="PasswordCheck" name="pwc"></p>
+                            <p><input style="border-right: 0px; border-left: 0px; border-top: 0px; width:60%;" type="email" placeholder="Email" name="email"></p>
+                            <p><input type="submit" value="완료" id="sign_bt"></p>
+                        </form>
+                    </fieldset>
+                </center>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

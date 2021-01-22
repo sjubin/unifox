@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unifox Shop</title>
+    <link rel="shortcut icon"  href="/image/icon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="head">
+        <div class="logo"><br>
+            <p><a href="shopping.html" style="text-decoration: none; color:black;">UFshop</a></p>
+        </div>
+        <div class="menu_left"><br>
+            <p><a href="best.html" style="text-decoration: none; color:black;">BEST</a></p><br>
+            <p><a href="outer.html" style="text-decoration: none; color:black;">OUTER</a></p><br>
+            <p><a href="top.html" style="text-decoration: none; color:black;">TOP</a></p><br>
+            <p><a href="bottom.html" style="text-decoration: none; color:black;">BOTTOM</a></p><br>
+            <p><a href="acc.html" style="text-decoration: none; color:black;">ACC</a></p>
+            <br>
+            <span><br><a href="login.html" style="text-decoration: none; color:black;">LOGIN</a><br></span>
+            <span><br><a href="signUp.html" style="text-decoration: none; color:black;">JOIN</a><br></span>
+            <!--로그아웃-->
+            <span><br><a href="shopping.html" style="text-decoration: none; color:black;">LOGOUT</a><br></span>
+        </div>
+
+        <div class="menu_right">
+            <span><a href="notice.html" style="text-decoration: none; color:black;">NOTICE</a><br></span>
+            <span><br><a href="http://unifox.kr/" target="_blank" style="text-decoration: none; color:black;">ABOUT US</a><br></span>
+        </div>
+    </div>
+
+    <div class="search">
+        <form action="search.php" method="POST">
+            <input style="border-right: 0px; border-left: 0px; border-top: 0px; width:133%;" type="text" placeholder="검색" name="search" >
+        </form>
+    </div>
+
+    <div class="Kategorie">
+        <p>contact : 010-1234-1234</p><br>
+        <p>WORK TIME : 12 PM - 6 PM</p><br>
+        <P>LUNCH TIME : 1 PM - 2 PM</P><br>
+        <P>CLOSE : SAT , SUN , REDDAY</P><br>
+    </div>
+
+    <!--주문 목록-->
+    <div class="order_list_title">
+        <h4><span>[ORDERLIST]</span></h4>
+    </div>
+    <div class="order">
+        <table> 
+            <thead>
+                <tr>
+                    <td width="30"></td>
+                    <td width="210"><strong>상품명</strong></td>
+                    <td width="150"><strong>가격</strong></td>
+                    <td width="90"><strong>재고</strong></td>
+                    <td width="170"><strong>등록시간</strong></td>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td align="center">2</td>
+                    <td>신발</td>
+                    <td align="center">10,000원</td>
+                    <td align="center">0</td>
+                    <td align="center">2020-12-23 05:30</td>
+                </tr>
+                <tr>
+                    <td align="center">3</td>
+                    <td>목도리</td>
+                    <td align="center">23,000원</td>
+                    <td align="center">400</td>
+                    <td align="center">2020-12-23 06:45</td>
+                </tr>
+                <tr>
+                    <td align="center">4</td>
+                    <td>청바지</td>
+                    <td align="center">50,000원</td>
+                    <td align="center">99</td>
+                    <td align="center">2020-12-23 07:43</td>
+                </tr>
+                <tr>
+                    <td align="center">5</td>
+                    <td>셔츠</td>
+                    <td align="center">30,000원</td>
+                    <td align="center">97</td>
+                    <td align="center">2020-12-23 11:59</td>
+                </tr>
+                <tr>
+                    <td align="center">6</td>
+                    <td>무스탕</td>
+                    <td align="center">1,060,000원</td>
+                    <td align="center">1</td>
+                    <td align="center">2020-12-24 01:24</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!--이전, 다음 버튼-->
+    <div class="pre_bt">
+        <button type="button" id="previous">
+            <strong>이전으로</strong>
+        </button>
+    </div>
+    <div class="next_bt">
+        <button type="button" id="next">
+            <strong>다음으로</strong>
+        </button>
+    </div>
+</body>
+</html>
